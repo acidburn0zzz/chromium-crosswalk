@@ -1,14 +1,1 @@
-<div id="background-container" class="transparent">
-  <svg id="background" xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-      <rect id="rectangular-hole-pattern" class="hole transparent"/>
-      <circle id="round-hole-pattern" class="hole transparent"/>
-      <mask id="mask" maskUnits="objectBoundingBox"
-          maskContentUnits="userSpaceOnUse">
-        <rect width="100%" height="100%" fill="white"/>
-      </mask>
-    </defs>
-    <rect class="fill" width="100%" height="100%" mask="url(#mask)"/>
-  </svg>
-</div>
+<div id="background-container" class="transparent"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="background"><defs><rect id="rectangular-hole-pattern" class="hole transparent"/><circle id="round-hole-pattern" class="hole transparent"/><mask id="mask" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox"><rect width="100%" height="100%" fill="#fff"/></mask></defs><rect width="100%" height="100%" class="fill" mask="url(#mask)"/></svg></div>
